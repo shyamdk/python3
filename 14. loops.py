@@ -12,5 +12,9 @@ for i in colors:
 
 colors = [11, 34.1, 98.2, 43, 45.1, 54, 54]
 for x in colors:
-    if type(x) == int:
+    if type(x) == int and x > 50:
         print(x)
+
+student_grades = { "mary: 30", "sam: 50", "ganesh; 60"}
+    for grades in student_grades:
+        
