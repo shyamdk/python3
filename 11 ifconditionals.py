@@ -11,6 +11,23 @@ mon_temp = [10, 20, 30, 40]
 print(findmean(student_grades))
 print(findmean(mon_temp))
 
+
+def stringlength(strings):
+    if len(strings) >= 8:
+        return True;
+    else:
+        return False;
+print(stringlength("ShyamDenkanikota"))
+
+def warmorcold(temp):
+    if temp > 25:
+        return "HOT"
+    elif temp <= 25 and temp >=15:
+        return "WARM"
+    elif temp < 15:
+        return "Cold"
+print(warmorcold(35))
+
 '''
 You learned to check for one single condition:
 
