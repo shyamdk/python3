@@ -18,7 +18,7 @@ for x in colors:
 student_grades = {"mary": 30, "sam": 50, "ganesh": 60}
 for grades in student_grades.items():
     print(grades)
-
+'''
 phone_numbers = {"John Smith": "+37682929928", "Marry Simpons": "+423998200919"}
  
 for pair in phone_numbers.items():
@@ -28,3 +28,10 @@ phone_numbers = {"John Smith": "+37682929928", "Marry Simpons": "+423998200919"}
  
 for key, value in phone_numbers.items():
     print("{} has as phone number {}".format(key, value))
+'''
+
+phone_numbers = {"John Smith": "+37682929928", "Marry Simpons": "+423998200919"}
+for key, value in phone_numbers.items():
+    #print(key)
+    print(value.replace("+", "00"))
+    #print("{} : {}".format(i[0],i[1]))
