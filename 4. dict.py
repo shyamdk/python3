@@ -7,3 +7,5 @@ print(studentgrades.pop("Mary"))
 print(studentgrades.items())
 day_temperatures = {'morning': 33.0, 'afternoon':38.0, 'evening': 32.0}
 print(day_temperatures)
+
+print(studentgrades["Sam"])
