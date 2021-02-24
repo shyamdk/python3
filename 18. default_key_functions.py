@@ -24,3 +24,8 @@ def meana(**kwargs):
     return kwargs
 
 print(meana(a=1,b=2,c=3))
+
+def find_sum(**kwargs):
+    return sum(kwargs.values())
+    
+print(find_sum(a=3, b=6))
